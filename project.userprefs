@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\bar.js">
+    <Files>
+      <File FileName="Assets\Scripts\sky_movement.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\game state\gameState_script.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\test_anim\button.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ground_script.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bar.js" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\cloud.js" Line="55" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

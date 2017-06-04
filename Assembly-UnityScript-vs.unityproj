@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4BF79580-BD40-8719-DEC4-3FC42411B4D7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_WP8;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_LAZY_METHOD_CACHING;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_WINRT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_SERIALIZATION_BY_CODEGENERATION;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/Tools/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Main Menu Auto-Scale GUI Button GUI Skin\Main Menu.js" />
+     <Compile Include="Assets\Scripts\Ground_script.js" />
+     <Compile Include="Assets\Scripts\Paused.js" />
+     <Compile Include="Assets\Scripts\Paused1.js" />
+     <Compile Include="Assets\Scripts\back_button.js" />
+     <Compile Include="Assets\Scripts\bar.js" />
+     <Compile Include="Assets\Scripts\bonus\bonus_clouds.js" />
+     <Compile Include="Assets\Scripts\bonus\bonus_man.js" />
+     <Compile Include="Assets\Scripts\bonus\destroy.js" />
+     <Compile Include="Assets\Scripts\bonus\follow_camera.js" />
+     <Compile Include="Assets\Scripts\bonus\game_state_bonus.js" />
+     <Compile Include="Assets\Scripts\bonus\newbonus_man.js" />
+     <Compile Include="Assets\Scripts\bonus\visible.js" />
+     <Compile Include="Assets\Scripts\cloud.js" />
+     <Compile Include="Assets\Scripts\game state\gameState_script.js" />
+     <Compile Include="Assets\Scripts\game state\gameState_script1.js" />
+     <Compile Include="Assets\Scripts\levels\levels.js" />
+     <Compile Include="Assets\Scripts\levels\scrolling.js" />
+     <Compile Include="Assets\Scripts\lock2.js" />
+     <Compile Include="Assets\Scripts\lock3.js" />
+     <Compile Include="Assets\Scripts\lock4.js" />
+     <Compile Include="Assets\Scripts\lock5.js" />
+     <Compile Include="Assets\Scripts\man.js" />
+     <Compile Include="Assets\Scripts\mouse_handler.js" />
+     <Compile Include="Assets\Scripts\pause\home.js" />
+     <Compile Include="Assets\Scripts\pause\quit.js" />
+     <Compile Include="Assets\Scripts\pause\restart.js" />
+     <Compile Include="Assets\Scripts\positions\pause_pos.js" />
+     <Compile Include="Assets\Scripts\power.js" />
+     <Compile Include="Assets\Scripts\practice\practice_start.js" />
+     <Compile Include="Assets\Scripts\sky_movement.js" />
+     <Compile Include="Assets\Scripts\test_anim\blink_mana.js" />
+     <Compile Include="Assets\Scripts\test_anim\blink_mana1.js" />
+     <Compile Include="Assets\Scripts\test_anim\button.js" />
+     <Compile Include="Assets\Scripts\test_anim\parachute_script.js" />
+     <Compile Include="Assets\Scripts\upwards.js" />
+     <Compile Include="Assets\Scripts\upwards_non_bonus.js" />
+     <Compile Include="Assets\Scripts\white_clouds\Manager_Script.js" />
+     <Compile Include="Assets\Scripts\white_clouds\lights.js" />
+     <Compile Include="Assets\Scripts\white_clouds\white_clouds.js" />
+     <Compile Include="Assets\animation\anim_plane.js" />
+     <Compile Include="Assets\animation\anim_sky.js" />
+     <Compile Include="Assets\animation\destroy_2nd_scene.js" />
+     <Compile Include="Assets\animation\ground_from_above.js" />
+     <Compile Include="Assets\animation\plane2.js" />
+     <Compile Include="Assets\animation\sky2.js" />
+     <Compile Include="Assets\animation\sky3.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/Saumik/Documents/project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
